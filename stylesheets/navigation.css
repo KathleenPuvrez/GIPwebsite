@@ -1,0 +1,32 @@
+#navul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    font-size: 15px;
+}
+
+#navli {
+    float: left;
+}
+
+#navli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navli a:hover {
+    background: linear-gradient(#ac7bc4, #b3d9ff);
+    color: black;
+}
+
+.active {
+    background: linear-gradient(#ac7bc4, #b3d9ff);
+}

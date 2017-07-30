@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    background: linear-gradient(#b3d9ff, #ffffff, #b3d9ff);
+}
+
+footer {
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: #5F5D9E;
+}
+
+header {
+    background-color: #5F5D9E;
+    width: 100%;
+    z-index: +1;
+    text-align: center;
+    top: 40px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+#headerNaam {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 2px;
+    color: #cce6ff;
+}
+
+#headerTitel {
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+    color: #cce6ff;
+    z-index: -1;
+}
+
+#headerimg {
+    width: 100%;
+    z-index: -5000;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    color: #373660;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#footerNaam {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin: 20px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    color: #cce6ff;
+}
+
+#footerTitel {
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+    color: #cce6ff;
+}
+
+
+p {
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.blogpost {
+    margin: 40px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    padding: 20px;
+    padding-top: 5px;
+    background: linear-gradient(#b3d9ff, #5F5D9E);
+    border-radius: 10px;
+}
+
+video {
+    width: 80%;
+    position: center;
+    margin: 10%;
+}
+
+
+ol {
+    margin: 15px;
+}
+
+.faq {
+    padding: 10px;
+    font-style: oblique;
+}
+
+ul {
+    font-family: 'Bungee', cursive;
+}
+
+#buttondiv{
+    margin-left:20px;
+
+}
+
+button{
+  background: linear-gradient(#b3d9ff, #5F5D9E);
+  border:thin;
+  border-color:black;
+ }
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 43.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+}
+
+.progress{
+    margin: 20px;
+}
+
+
+#YouTube{
+    max-width: 500px;
+    text-align: center;
+    width:80%; margin:10%; margin-bottom:0px;
+}
